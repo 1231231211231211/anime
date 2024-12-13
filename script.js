@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     // サービスデータ（アニメタイトルと対応するサブスクリプションサービス）
+    //ローカルリポジトリ生成済み。
     const services = [
         {
             name: "Amazon Prime Video",
