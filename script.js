@@ -131,7 +131,8 @@ document.addEventListener("DOMContentLoaded", () => {
                           "外見至上主義","不死身な僕の日常","カミエラビ GOD.app","痛いのは嫌なので防御力に極振りしたいと思います。","NARUTO","ONE PIECE FAN LETTER",
                           "BORUTO","狼と香辛料","最強タンクの迷宮攻略","雨を告げる漂流団地","7SEEDS","古代王者 恐竜キングDキッズ・アドベンチャー","GAMERA -ReBirth-",
                           "グリム組曲","T・Pボン","地球外少年少女","機動戦士ガンダム SEED DESTINY","NieR:Automata","機動戦士ガンダム 水星の魔女","いぬやしき","EDENS ZERO",
-                          "ゴジラ S.P","カウボーイビバップ",
+                          "ゴジラ S.P","カウボーイビバップ","機動戦士ガンダム 鉄血のオルフェンズ","攻殻機動隊 STAND ALONE COMPLEX","機動戦士ガンダム SEED FREEDOM",
+                          "機動戦士ガンダム","機動戦士ガンダム ユニコーン RE:0096","SPRIGGAN(スプリガン)","僕とロボコ","アキラ(AKIRA)","勇気爆発バーンブレイバーン"
             ]
         },
         {
