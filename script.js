@@ -356,6 +356,42 @@ document.addEventListener("DOMContentLoaded", () => {
     const recommendedServicesSection = document.getElementById("recommended-services");
     const priceRecommendationsSection = document.getElementById("price-recommendations");
 
+    searchInput.addEventListener("input", () => {
+        const searchTerm = searchInput.value.trim().toLowerCase();
+        searchSuggestions.innerHTML = ""; // Clear previous suggestions
+        
+        if (searchTerm === "") {
+            searchSuggestions.style.display = "none";
+            return;
+        }
+    
+        // アニメタイトルの候補を取得
+        const suggestions = services.flatMap(service =>
+            service.animeTitles.filter(title => title.toLowerCase().startsWith(searchTerm)) // 最初の文字で一致
+        );
+    
+        // 50音順でソート（ひらがな順、英数字はそのまま）
+        suggestions.sort((a, b) => {
+            // ひらがなに対して自然な50音順でソート
+            return a.localeCompare(b, 'ja');
+        });
+    
+        if (suggestions.length > 0) {
+            searchSuggestions.style.display = "block";
+            suggestions.forEach(suggestion => {
+                const div = document.createElement("div");
+                div.textContent = suggestion;
+                div.addEventListener("click", () => {
+                    searchInput.value = suggestion;
+                    searchForm.requestSubmit();  // Trigger form submit
+                });
+                searchSuggestions.appendChild(div);
+            });
+        } else {
+            searchSuggestions.style.display = "none";
+        }
+    });
+
 // アニメ検索フォームの送信時
 searchForm.addEventListener("submit", (event) => {
     event.preventDefault();
@@ -453,41 +489,7 @@ searchForm.addEventListener("submit", (event) => {
     }
 });*/
 
-searchInput.addEventListener("input", () => {
-    const searchTerm = searchInput.value.trim().toLowerCase();
-    searchSuggestions.innerHTML = ""; // Clear previous suggestions
-    
-    if (searchTerm === "") {
-        searchSuggestions.style.display = "none";
-        return;
-    }
 
-    // アニメタイトルの候補を取得
-    const suggestions = services.flatMap(service =>
-        service.animeTitles.filter(title => title.toLowerCase().startsWith(searchTerm)) // 最初の文字で一致
-    );
-
-    // 50音順でソート（ひらがな順、英数字はそのまま）
-    suggestions.sort((a, b) => {
-        // ひらがなに対して自然な50音順でソート
-        return a.localeCompare(b, 'ja');
-    });
-
-    if (suggestions.length > 0) {
-        searchSuggestions.style.display = "block";
-        suggestions.forEach(suggestion => {
-            const div = document.createElement("div");
-            div.textContent = suggestion;
-            div.addEventListener("click", () => {
-                searchInput.value = suggestion;
-                searchForm.requestSubmit();  // Trigger form submit
-            });
-            searchSuggestions.appendChild(div);
-        });
-    } else {
-        searchSuggestions.style.display = "none";
-    }
-});
       // キャンセルボタンの処理
   cancelBtn.addEventListener("click", () => {
         searchInput.value = "";
