@@ -424,11 +424,9 @@ searchForm.addEventListener("submit", (event) => {
         });
     }
  // 検索中のアニメタイトルに一致する候補を表示
-<<<<<<< HEAD
+
  searchInput.addEventListener("input", () => {
-=======
-searchInput.addEventListener("input", () => {
->>>>>>> db51154d61594ccd81f1d5a37acb37602836f323
+
     const searchTerm = searchInput.value.trim().toLowerCase();
     searchSuggestions.innerHTML = ""; // Clear previous suggestions
     if (searchTerm === "") {
