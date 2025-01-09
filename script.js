@@ -241,7 +241,38 @@ document.addEventListener("DOMContentLoaded", () => {
                 "頭文字[イニシャル]D Fourth Stage","とある科学の超電磁砲T","家庭教師ヒットマンREBORN！","SPECIAL EDITED VERSION 『ONE PIECE』魚人島編",
                 "君のことが大大大大大好きな100人の彼女","鬼滅の刃 竈門炭治郎 立志編","異世界のんびり農家","FAIRY TAIL （1話～）","SKET DANCE","怪獣８号","僕のヒーローアカデミア（第5期）","ホリミヤ",
                 "ダンジョンに出会いを求めるのは間違っているだろうかIV","忘却バッテリー","僕のヒーローアカデミア（第6期）","げんきげんきノンタン","ドラゴンボールGT",
-                "ポーション頼みで生き延びます！","進撃の巨人 Season 2",""]
+                "ポーション頼みで生き延びます！","進撃の巨人 Season 2","負けヒロインが多すぎる！","女神降臨","妖怪ウォッチ","お隣の天使様にいつの間にか駄目人間にされていた件","山田くんとLv999の恋をする",
+                "無職転生Ⅱ ～異世界行ったら本気だす～","推しの子","プランダラ","鬼滅の刃 刀鍛冶の里編","青の祓魔師","ダイヤのA actII","とある魔術の禁書目録","僕のヒーローアカデミア（第4期）",
+                "ギャグマンガ日和＋","0歳児スタートダッシュ物語","サマータイムレンダ","ポケットモンスター ダイヤモンド・パール","スラムダンク","俺は全てを【パリイ】する　〜逆勘違いの世界最強は冒険者になりたい〜",
+                "ジョジョの奇妙な冒険 ストーンオーシャン","魔王の俺が奴隷エルフを嫁にしたんだが、どう愛でればいい？","転生貴族、鑑定スキルで成り上がる","ポケットモンスター アドバンスジェネレーション",
+                "モブ皇帝～平凡をむさぼる僕が多元宇宙の支配者に選ばれたので、世界を救ってみた～","夏目友人帳","銀魂゜","神之塔 -Tower of God- 工房戦","イナズマイレブン 世界への挑戦編","幽遊白書","とある科学の超電磁砲S",
+                "新テニスの王子様 U-17 WORLD CUP SEMIFINAL","精霊幻想記","テニスの王子様","ダーリン・イン・ザ・フランキス","ジョジョの奇妙な冒険 スターダストクルセイダース","ジョジョの奇妙な冒険","君に届け","黒子のバスケ 第１期",
+                "ハイキュー!! 烏野高校vs白鳥沢学園高校","黒子のバスケ 第３期","魔入りました！入間くん","遊☆戯☆王デュエルモンスターズ","炎炎ノ消防隊","黒子のバスケ 第２期",
+                "GATE 自衛隊 彼の地にて、斯く戦えり","ループ7回目の悪役令嬢は、元敵国で自由気ままな花嫁生活を満喫する","ソードアート・オンライン","Dr.STONE STONE WARS","その着せ替え人形は恋をする","８６―エイティシックス―",
+                "ドラゴンボール改","悪役令嬢レベル99～私は裏ボスですが魔王ではありません～","僕の心のヤバイやつ 第２期","鬼灯の冷徹 第弐期","キングダム 第3シリーズ","闘牌伝説アカギ ～闇に舞い降りた天才～","おそ松さん","最強陰陽師の異世界転生記",
+                "スライム倒して300年、知らないうちにレベルMAXになってました","デスマーチからはじまる異世界狂想曲","キングダム 第4シリーズ","NANA－ナナ－","Lv2からチートだった元勇者候補のまったり異世界ライフ","悲劇の元凶となる最強外道ラスボス女王は民の為に尽くします",
+                "八男って、それはないでしょう！","ポケットモンスター ベストウイッシュ","続 夏目友人帳","ダイヤのA（第1話～第51話）","治癒魔法の間違った使い方","無職転生 ～異世界行ったら本気だす～","オーバーロードIV","WIND BREAKER","神達に拾われた男",
+                "僕の心のヤバイやつ 第２期","転生貴族の異世界冒険録～自重を知らない神々の使徒～","魔入りました！入間くん","はじめの一歩","氷菓","銀魂．","僕の心のヤバイやつ","夏目友人帳 参","アンダーニンジャ","魔入りました！入間くん 第2シリーズ","イニミニマニモ -ペッパピッグ＆パジャマスク-",
+                "ジョジョの奇妙な冒険 スターダストクルセイダース エジプト編","暗殺教室","ダンジョンに出会いを求めるのは間違っているだろうか","神之塔 -Tower of God- 工房戦","かぐや様は告らせたい～天才たちの恋愛頭脳戦～","この素晴らしい世界に祝福を！３","グリザイアの果実","蜘蛛ですが、なにか？",
+                "ゲゲゲの鬼太郎","頭文字[イニシャル]D Fifth Stage","食戟のソーマ","地獄楽","暗殺教室 （第2期）","夏目友人帳 肆","デキる猫は今日も憂鬱","はたらく細胞BLACK","魔法科高校の劣等生","炎炎ノ消防隊　弐ノ章","日常","青の祓魔師 島根啓明結社篇","聖女の魔力は万能です Season2",
+                "とある魔術の禁書目録II","キングダム 第5シリーズ","とある魔術の禁書目録III","外科医エリーゼ","頭文字[イニシャル]D Second Stage","ワンピース イーストブルー編","虫かぶり姫","私、能力は平均値でって言ったよね！","ぼっち・ざ・ろっく！","ダイの大冒険","痛いのは嫌なので防御力に極振りしたいと思います。",
+                "失格紋の最強賢者","リコリス・リコイル","賢者の孫","蟲師","史上最強の大魔王、村人Aに転生する","キン肉マン 完璧超人始祖編","うちの３姉妹","モンキーターン","盾の勇者の成り上がり","キングダム 第2シリーズ","イナズマイレブン 脅威の侵略者編","英雄王、武を極めるため転生す ～そして、世界最強の見習い騎士♀～",
+                "お嬢と番犬くん","スキップとローファー","かぐや様は告らせたい？～天才たちの恋愛頭脳戦～","月が導く異世界道中","ダイヤのA-SECOND SEASON-","鴨乃橋ロンの禁断推理","魔法つかいプリキュア！","夏目友人帳 伍","僕のヒーローアカデミア","異世界おじさん","逆境無頼カイジ Ultimate Survivor","この素晴らしい世界に祝福を！",
+                "キングダム 第1シリーズ","桜蘭高校ホスト部","解雇された暗黒兵士(30代)のスローなセカンドライフ","彼女が公爵邸に行った理由","異世界居酒屋～古都アイテーリアの居酒屋のぶ～","小林さんちのメイドラゴン","弱虫ペダル","世界最高の暗殺者、異世界貴族に転生する","トリリオンゲーム","銀河英雄伝説 Die Neue These 策謀",
+                "銀河英雄伝説","THE NEW GATE","夏目友人帳 陸","マギ","逃げ上手の若君","天才王子の赤字国家再生術","魔入りました！入間くん 第3シリーズ","ダンベル何キロ持てる？","東京喰種トーキョーグール","あそびあそばせ","BLACK LAGOON / BLACK LAGOON The Second Barrage","ダンジョンに出会いを求めるのは間違っているだろうかII",
+                "転生賢者の異世界ライフ～第二の職業を得て、世界最強になりました～","オーバーロードIII","幼女戦記","食戟のソーマ 餐ノ皿","機動戦士ガンダムSEED ＨＤリマスター","ワールドトリガー 3rdシーズン","ヲタクに恋は難しい","見える子ちゃん","ひみつのアイプリ","乙女ゲー世界はモブに厳しい世界です","チェンソーマン",
+                "ダンジョンに出会いを求めるのは間違っているだろうかIII","おかしな転生","メジャー 第２シリーズ","じゃりン子チエ","らんま1/2 デジタルリマスター版 第２シーズン","暁のヨナ","この素晴らしい世界に祝福を！２","聖女の魔力は万能です","FAIRY TAIL （176話～）","たとえばラストダンジョン前の村の少年が序盤の街で暮らすような物語",
+                "痛いのは嫌なので防御力に極振りしたいと思います。2","転スラ日記","お買いものパンダ！","鋼の錬金術師","宇宙兄弟","乙女ゲームの破滅フラグしかない悪役令嬢に転生してしまった…","BEYBLADE X","犬夜叉 第１期","東京リベンジャーズ","涼宮ハルヒの憂鬱","風が強く吹いている","ゆびさきと恋々","機動戦士ガンダム","化物語",
+                "ソードアート・オンラインII","株式会社マジルミエ","MFゴースト","農民関連のスキルばっか上げてたら何故か強くなった。","新あたしンち","オーバーロード","ゴールデンカムイ 第四期","ティアムーン帝国物語〜断頭台から始まる、姫の転生逆転ストーリー〜","リアデイルの大地にて","PSYCHO-PASS サイコパス","かぐや様は告らせたい-ウルトラロマンティック-",
+                "抱かれたい男1位に脅されています。","放課後少年花子くん","異修羅","コードギアス 反逆のルルーシュ","柚木さんちの四兄弟。","終わりのセラフ","黙示録の四騎士","神様はじめました","ワンピース エニエス・ロビー全編","るろうに剣心 －明治剣客浪漫譚－","からかい上手の高木さん","ゴールデンカムイ","俺だけ入れる隠しダンジョン","七つの大罪",
+                "メジャー 第４シリーズ","Fate/stay night [Unlimited Blade Works]","モンキーターンV","メジャー 第３シリーズ","ゆるキャン△ SEASON3","フルーツバスケット 1st season","カードキャプターさくら クロウカード編","七つの大罪 戒めの復活","干物妹！うまるちゃん","ヘタリア Axis Powers","青の祓魔師 京都不浄王篇","悪役令嬢なのでラスボスを飼ってみました",
+                "おそ松さん 第2期","鬼灯の冷徹","オーバーロードII","多数欠","異世界食堂","即死チートが最強すぎて、異世界のやつらがまるで相手にならないんですが。","賢者の弟子を名乗る賢者","老後に備えて異世界で8万枚の金貨を貯めます","レベル1だけどユニークスキルで最強です","メジャー 第５シリーズ","ラーメン赤猫","七つの大罪 憤怒の審判","けいおん!!","ぐらんぶる",
+                "北斗の拳","デッドデッドデーモンズデデデデデストラクション","とあるおっさんのＶＲＭＭＯ活動記","勇者、辞めます","七つの大罪 神々の逆鱗","食戟のソーマ 弐ノ皿","東京喰種トーキョーグール√A","杖と剣のウィストリア","異世界ゆるり紀行 ～子育てしながら冒険者します～","機動戦士Ζガンダム","逃走中 グレートミッション","ケロロ軍曹 1stシーズン",
+                "アオアシ","キラキラ キャッチ！ティニピン","ワールドトリガー 2ndシーズン","Fate/Zero","物語 シリーズ セカンドシーズン","くまクマ熊ベアーぱーんち！","トムとジェリー テイルズ シーズン1","魔王学院の不適合者 Ⅱ ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～","可愛いだけじゃない式守さん","クッキングパパ","異世界召喚は二度目です",
+                "魔法使いの嫁","ようこそ実力至上主義の教室へ 3rd Season","文豪ストレイドッグス","異世界食堂２","遊戯王デュエルモンスターズGX","赤髪の白雪姫","逆境無頼カイジ 破戒録篇","アイカツ！","ネガポジアングラー","ワンピース 魚人島編","らんま1/2 デジタルリマスター版 第３シーズン","憂国のモリアーティ","ルパン三世","CLANNAD","ゴールデンカムイ 第二期",
+                "盾の勇者の成り上がり Season 2","妻、小学生になる。","みどりのマキバオー","アイシールド21","メジャー 第６シリーズ","メジャー 第６シリーズ","乙女ゲームの破滅フラグしかない悪役令嬢に転生してしまった…Ｘ","おそ松さん 第3期","ねこに転生したおじさん",
+                "ゴブリンスレイヤー","僕だけがいない街","シュタインズ・ゲート ゼロ","魔王城でおやすみ","新米錬金術師の店舗経営","五等分の花嫁∬","継母の連れ子が元カノだった","ゾン100～ゾンビになるまでにしたい100のこと～","地獄先生ぬ～べ～","五等分の花嫁","マギ 第２期",
+                "金色のガッシュベル!!","闇芝居","転生したら剣でした",""]
         },
         {
             name: "ABEMAプレミアム",
@@ -374,160 +405,122 @@ document.addEventListener("DOMContentLoaded", () => {
         },
 
 
-    ];
-
-    const searchForm = document.getElementById("anime-search-form");
-    const searchInput = document.getElementById("anime-title");
-    const searchResults = document.getElementById("search-results");
-    const searchSuggestions = document.getElementById("search-suggestions");
-    const cancelBtn = document.getElementById("cancel-btn");
-
-    const recommendedServicesSection = document.getElementById("recommended-services");
-    const priceRecommendationsSection = document.getElementById("price-recommendations");
-
-    searchInput.addEventListener("input", () => {
-        const searchTerm = searchInput.value.trim().toLowerCase();
-        searchSuggestions.innerHTML = ""; // Clear previous suggestions
-        
-        if (searchTerm === "") {
-            searchSuggestions.style.display = "none";
-            return;
-        }
-    
-        // アニメタイトルの候補を取得
-        const suggestions = services.flatMap(service =>
-            service.animeTitles.filter(title => title.toLowerCase().startsWith(searchTerm)) // 最初の文字で一致
-        );
-    
-        // 50音順でソート（ひらがな順、英数字はそのまま）
-        suggestions.sort((a, b) => {
-            // ひらがなに対して自然な50音順でソート
-            return a.localeCompare(b, 'ja');
-        });
-    
-        if (suggestions.length > 0) {
-            searchSuggestions.style.display = "block";
-            suggestions.forEach(suggestion => {
-                const div = document.createElement("div");
-                div.textContent = suggestion;
-                div.addEventListener("click", () => {
-                    searchInput.value = suggestion;
-                    searchForm.requestSubmit();  // Trigger form submit
-                });
-                searchSuggestions.appendChild(div);
-            });
-        } else {
-            searchSuggestions.style.display = "none";
-        }
-    });
-
-// アニメ検索フォームの送信時
-searchForm.addEventListener("submit", (event) => {
-    event.preventDefault();
-    const searchTitle = searchInput.value.trim();
-
-    // 検索結果をフィルタリング
-    const matchedServices = services.filter(service =>
-        service.animeTitles.some(title => 
-            title.toLowerCase().includes(searchTitle.toLowerCase())
-        )
-    );
-
-           // 検索結果を表示
-    if (matchedServices.length > 0) {
-        searchResults.innerHTML = `<h3>「${searchTitle}」が視聴できるサービス:</h3>`;
-        const list = document.createElement("ul");
-        matchedServices.forEach(service => {
-            const listItem = document.createElement("li");
-            listItem.textContent = `${service.name} (価格: ${service.price})`;
-            list.appendChild(listItem);
-        });
-        searchResults.appendChild(list);
-    } else {
-        searchResults.innerHTML = `<p>「${searchTitle}」は見つかりませんでした。</p>`;
-    }
-    searchSuggestions.style.display = "none"; // Hide suggestions after search
-});
-
-    // 初心者向けおすすめサブスクリプションサービス
-    function showRecommendedServices() {
-        recommendedServicesSection.innerHTML = "<h3>おすすめサブスクリプションサービス</h3>";
-
-        services.forEach(service => {
-            const div = document.createElement("div");
-            div.innerHTML = `
-                <h4>${service.name}</h4>
-                <p>価格: ${service.price}</p>
-                <p>画質: ${service.quality}</p>
-                <p>ジャンル: ${service.genres.join(", ")}</p>
-                <p>特徴: ${service.tokutyou}</p>
-            `;
-            recommendedServicesSection.appendChild(div);
-        });
-    }
-
-    // 価格別ランキング
-    function showPriceRecommendations() {
-        priceRecommendationsSection.innerHTML = "<h3>価格別おすすめサービス</h3>";
-
-        // 価格で並べ替え
-        const sortedServices = services.slice().sort((a, b) => {
-            const priceA = parseInt(a.price.replace('円/月', '').replace(',', ''));
-            const priceB = parseInt(b.price.replace('円/月', '').replace(',', ''));
-            return priceA - priceB;
-        });
-
-        sortedServices.forEach(service => {
-            const div = document.createElement("div");
-            div.innerHTML = `
-                <h4>${service.name}</h4>
-                <p>価格: ${service.price}</p>
-                <p>画質: ${service.quality}</p>
-            `;
-            priceRecommendationsSection.appendChild(div);
-        });
-    }
- // 検索中のアニメタイトルに一致する候補を表示
-
- /*searchInput.addEventListener("input", () => {
-
-    const searchTerm = searchInput.value.trim().toLowerCase();
-    searchSuggestions.innerHTML = ""; // Clear previous suggestions
-    if (searchTerm === "") {
-        searchSuggestions.style.display = "none";
-        return;
-    }
-
-    const suggestions = services.flatMap(service =>
-        service.animeTitles.filter(title => title.toLowerCase().startsWith(searchTerm)) // startsWithに変更
-    );
-
-    if (suggestions.length > 0) {
-        searchSuggestions.style.display = "block";
-        suggestions.forEach(suggestion => {
-            const div = document.createElement("div");
-            div.textContent = suggestion;
-            div.addEventListener("click", () => {
-                searchInput.value = suggestion;
-                searchForm.requestSubmit();  // Trigger form submit
-            });
-            searchSuggestions.appendChild(div);
-        });
-    } else {
-        searchSuggestions.style.display = "none";
-    }
-});*/
-
-
-      // キャンセルボタンの処理
+  ];
+  const searchForm = document.getElementById("anime-search-form");
+  const searchInput = document.getElementById("anime-title");
+  const searchResults = document.getElementById("search-results");
+  const searchSuggestions = document.getElementById("search-suggestions");
+  const cancelBtn = document.getElementById("cancel-btn");
+  
+  const recommendedServicesSection = document.getElementById("recommended-services");
+  const priceRecommendationsSection = document.getElementById("price-recommendations");
+  
+  // アニメタイトルの候補表示
+  searchInput.addEventListener("input", () => {
+      const searchTerm = searchInput.value.trim().toLowerCase();
+      searchSuggestions.innerHTML = ""; // 以前の候補をクリア
+      
+      if (searchTerm === "") {
+          searchSuggestions.style.display = "none";
+          return;
+      }
+  
+      // アニメタイトルの候補を取得
+      const suggestions = services.flatMap(service =>
+          service.animeTitles.filter(title => title.toLowerCase().startsWith(searchTerm)) // 最初の文字で一致
+      );
+  
+      // 50音順でソート
+      suggestions.sort((a, b) => a.localeCompare(b, 'ja'));
+  
+      if (suggestions.length > 0) {
+          searchSuggestions.style.display = "block";
+          suggestions.forEach(suggestion => {
+              const div = document.createElement("div");
+              div.textContent = suggestion;
+              div.addEventListener("click", () => {
+                  searchInput.value = suggestion;
+                  searchForm.requestSubmit();  // フォームを送信
+              });
+              searchSuggestions.appendChild(div);
+          });
+      } else {
+          searchSuggestions.style.display = "none";
+      }
+  });
+  
+  // アニメ検索フォームの送信時
+  searchForm.addEventListener("submit", (event) => {
+      event.preventDefault();
+      const searchTitle = searchInput.value.trim();
+  
+      // 検索結果をフィルタリング
+      const matchedServices = services.filter(service =>
+          service.animeTitles.some(title => 
+              title.toLowerCase().includes(searchTitle.toLowerCase())
+          )
+      );
+  
+      // 検索結果を表示
+      if (matchedServices.length > 0) {
+          searchResults.innerHTML = `<h3>「${searchTitle}」が視聴できるサービス:</h3>`;
+          const list = document.createElement("ul");
+          matchedServices.forEach(service => {
+              const listItem = document.createElement("li");
+              listItem.textContent = `${service.name} (価格: ${service.price})`;
+              list.appendChild(listItem);
+          });
+          searchResults.appendChild(list);
+      } else {
+          searchResults.innerHTML = `<p>「${searchTitle}」は見つかりませんでした。</p>`;
+      }
+      searchSuggestions.style.display = "none"; // 検索後は候補を非表示
+  });
+  
+  // キャンセルボタンの処理
   cancelBtn.addEventListener("click", () => {
-        searchInput.value = "";
-        searchResults.innerHTML = "";
-        searchSuggestions.innerHTML = "";
-        searchSuggestions.style.display = "none";
-    });
-
-    // 初期表示
-    showRecommendedServices();
-    showPriceRecommendations();
+      searchInput.value = "";
+      searchResults.innerHTML = "";
+      searchSuggestions.innerHTML = "";
+      searchSuggestions.style.display = "none";
+  });
+  
+  // 初期表示
+  function showRecommendedServices() {
+      recommendedServicesSection.innerHTML = "<h3>おすすめサブスクリプションサービス</h3>";
+      services.forEach(service => {
+          const div = document.createElement("div");
+          div.innerHTML = `
+              <h4>${service.name}</h4>
+              <p>価格: ${service.price}</p>
+              <p>画質: ${service.quality}</p>
+              <p>ジャンル: ${service.genres.join(", ")}</p>
+              <p>特徴: ${service.tokutyou}</p>
+          `;
+          recommendedServicesSection.appendChild(div);
+      });
+  }
+  
+  function showPriceRecommendations() {
+      priceRecommendationsSection.innerHTML = "<h3>価格別おすすめサービス</h3>";
+      const sortedServices = services.slice().sort((a, b) => {
+          const priceA = parseInt(a.price.replace('円/月', '').replace(',', ''));
+          const priceB = parseInt(b.price.replace('円/月', '').replace(',', ''));
+          return priceA - priceB;
+      });
+  
+      sortedServices.forEach(service => {
+          const div = document.createElement("div");
+          div.innerHTML = `
+              <h4>${service.name}</h4>
+              <p>価格: ${service.price}</p>
+              <p>画質: ${service.quality}</p>
+          `;
+          priceRecommendationsSection.appendChild(div);
+      });
+  }
+  
+  // 初期表示を行う
+  showRecommendedServices();
+  showPriceRecommendations();
 });
