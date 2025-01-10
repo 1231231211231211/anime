@@ -20,21 +20,8 @@ $year = date("Y"); // Get the current year dynamically
                 <li><a href="#price">価格別ランキング</a></li>
                 <li><a href="#search">アニメ検索</a></li>
             </ul>
-            <div class="header_container">
-				<div class="menu_container">
-					<img class="menu_open" src="img/ham-menu-image01.png">
-					<img class="menu_close" src="img/ham-menu-image02.png">    
-				</div>
         </nav>
     </header>
-
-    <nav class="sample_sp_menu">
-			<ul>
-				<li>HOME</li>
-				<li>ABOUT</li>
-				<li>NEWS</li>
-				<li>CONTACT</li>
-			</ul>
 
     <main>
         <section id="search">
