@@ -12,45 +12,66 @@ $year = date("Y"); // Get the current year dynamically
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>アニメサブスクリプションサービスおすすめ</h1>
-        <nav>
+    <div class="content_body">
+        <header>
+            <div class="header_container">
+                <div class="menu_bt_container">
+                    <img src="img/ham-menu-image01.png" class="menu_close">
+                    <img src="img/ham-menu-image02.png" class="menu_open">
+                </div>
+                <h1>サイトタイトル</h1>
+            </div>
+        </header>
+
+        <nav class="sample_sp_menu">
             <ul>
-                <li><a href="#recommendations">おすすめサービス</a></li>
-                <li><a href="#price">価格別ランキング</a></li>
-                <li><a href="#search">アニメ検索</a></li>
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>NEWS</li>
+                <li>CONTACT</li>
             </ul>
         </nav>
-    </header>
 
-    <main>
-        <section id="search">
-            <h2>アニメタイトルで検索</h2>
-            <form id="anime-search-form">
-                <label for="anime-title">アニメタイトルを入力:</label>
-                <input type="text" id="anime-title" name="anime-title" required>
-                <button type="button" id="cancel-btn">キャンセル</button>
-                <button type="submit">検索</button>
-            </form>
-            <div id="search-suggestions"></div>
-            <div id="search-results"></div>
-        </section>
+        <header>
+            <h1>アニメサブスクリプションサービスおすすめ</h1>
+            <nav>
+                <ul>
+                    <li><a href="#recommendations">おすすめサービス</a></li>
+                    <li><a href="#price">価格別ランキング</a></li>
+                    <li><a href="#search">アニメ検索</a></li>
+                </ul>
+            </nav>
+        </header>
 
-        <section id="recommendations">
-            <h2>初心者向けおすすめサブスクリプションサービス</h2>
-            <p>初心者におすすめのサービスを以下に表示します。</p>
-            <div id="recommended-services"></div>
-        </section>
+        <main>
+            <section id="search">
+                <h2>アニメタイトルで検索</h2>
+                <form id="anime-search-form">
+                    <label for="anime-title">アニメタイトルを入力:</label>
+                    <input type="text" id="anime-title" name="anime-title" required>
+                    <button type="button" id="cancel-btn">キャンセル</button>
+                    <button type="submit">検索</button>
+                </form>
+                <div id="search-suggestions"></div>
+                <div id="search-results"></div>
+            </section>
 
-        <section id="price">
-            <h2>価格別おすすめサービス</h2>
-            <div id="price-recommendations"></div>
-        </section>
-    </main>
+            <section id="recommendations">
+                <h2>初心者向けおすすめサブスクリプションサービス</h2>
+                <p>初心者におすすめのサービスを以下に表示します。</p>
+                <div id="recommended-services"></div>
+            </section>
 
-    <footer>
-        <p>&copy; <?php echo $year; ?> アニメサブスクリプションおすすめサイト</p>
-    </footer>
+            <section id="price">
+                <h2>価格別おすすめサービス</h2>
+                <div id="price-recommendations"></div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; <?php echo $year; ?> アニメサブスクリプションおすすめサイト</p>
+        </footer>
+    </div>
 
     <script src="script.js"></script>
 </body>
