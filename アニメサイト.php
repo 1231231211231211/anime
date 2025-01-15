@@ -13,25 +13,28 @@ $year = date("Y"); // Get the current year dynamically
 </head>
 <body>
     <div class="content_body">
+        <!-- Header with Hamburger Menu -->
         <header>
             <div class="header_container">
                 <div class="menu_bt_container">
-                    <img src="img/ham-menu-image01.png" class="menu_close">
-                    <img src="img/ham-menu-image02.png" class="menu_open">
+                    <img src="img/ham-menu-image01.png" class="menu_close" alt="menu close">
+                    <img src="img/ham-menu-image02.png" class="menu_open" alt="menu open">
                 </div>
                 <h1>サイトタイトル</h1>
             </div>
         </header>
 
+        <!-- Navigation Menu for Mobile/Tablet -->
         <nav class="sample_sp_menu">
             <ul>
-                <li>HOME</li>
-                <li>ABOUT</li>
-                <li>NEWS</li>
-                <li>CONTACT</li>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">NEWS</a></li>
+                <li><a href="#">CONTACT</a></li>
             </ul>
         </nav>
 
+        <!-- Main Header for Site Sections -->
         <header>
             <h1>アニメサブスクリプションサービスおすすめ</h1>
             <nav>
@@ -43,6 +46,7 @@ $year = date("Y"); // Get the current year dynamically
             </nav>
         </header>
 
+        <!-- Main Content -->
         <main>
             <section id="search">
                 <h2>アニメタイトルで検索</h2>
@@ -68,6 +72,7 @@ $year = date("Y"); // Get the current year dynamically
             </section>
         </main>
 
+        <!-- Footer -->
         <footer>
             <p>&copy; <?php echo $year; ?> アニメサブスクリプションおすすめサイト</p>
         </footer>
