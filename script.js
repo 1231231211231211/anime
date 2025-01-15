@@ -407,16 +407,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
   ];
   //メニュー
-  const MenuContainer = document.querySelector('.menu_container');
-  const MenuOpen = document.querySelector('.menu_open');
-  const MenuClose = document.querySelector('.menu_close');
-  
-  const SPMenu = document.querySelector('.sample_sp_menu');			
-      MenuContainer.addEventListener('click', () => {
-          MenuOpen.classList.toggle('active');
-          MenuClose.classList.toggle('active');
-          SPMenu.classList.toggle('active');
-      });
+  document.addEventListener("DOMContentLoaded", function() {
+    const menuOpen = document.querySelector(".menu_open");
+    const menuClose = document.querySelector(".menu_close");
+    const menu = document.querySelector(".sample_sp_menu");
+
+    menuOpen.addEventListener("click", function() {
+        menu.classList.add("active");
+    });
+
+    menuClose.addEventListener("click", function() {
+        menu.classList.remove("active");
+    });
+});
 
 
 //アニメ
