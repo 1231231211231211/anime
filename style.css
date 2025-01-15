@@ -1,93 +1,4 @@
-/* 基本のスタイル */
-/*メニュー*/
-.content_body {
-	width: 300px;
-	height: 500px;
-	background: lightgrey;
-	position: relative;
-}
-.content_body header {
-	position: relative;
-	background-color: black;
-	color: white;
-	z-index: 1;
-	height: 80px;
-}
-.header_container {
-	width: 100%;
-	height: 100%;
-	position: relative;
-}
-.header_container h1 {
-	font-size: 1rem;
-	width: fit-content;
-	position: absolute;
-	top: calc( 50% - .8rem);
-	left: 0;
-	right: 0;
-	margin: auto;
-}
-.menu_container {
-	width: 50px;
-	height: 50px;
-	position: absolute;
-	top: calc(50% - 25px);
-	left: 20px;
-	cursor: pointer;
-}
-.menu_container img {
-	width: 100%;
-	filter: invert(1);
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-.menu_open {
-	opacity: 1;
-}
-	.menu_open.active {
-		opacity: 0;
-	}
-.menu_close {
-	opacity: 0;
-}
-	.menu_close.active {
-		opacity: 1;
-	}
-.content_body section {
-	height: 420px;
-	display: grid;
-	justify-content: center;
-	align-content: center;
-}
-.sample_sp_menu {
-	background-color: rgba(0,0,0,.5);
-	position: absolute;
-	top: 0;
-	left: -300px;
-	width: 100%;
-	height: 100%;
-	display: grid;
-	justify-content: center;
-	align-content: center;
-	color: white;
-	text-align: center;
-	transition: .5s;
-}
-	.sample_sp_menu.active {
-		left: 0;
-	}
-.sample_sp_menu ul {
-	padding-inline: 0;
-}
-.sample_sp_menu li {
-	list-style: none;
-	margin-top: 1.5rem;
-	cursor: pointer;
-}
-
-
-/*サイト*/
+/* ベース設定 */
 * {
     margin: 0;
     padding: 0;
@@ -96,74 +7,191 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
     line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
+h1, h2 {
+    color: #333;
+    font-weight: bold;
+}
+
+/* ヘッダー */
 header {
-    background-color: #333;
-    color: white;
-    padding: 1rem;
-    text-align: center;
+    background-color: #008080;
+    padding: 10px 20px;
+    color: #fff;
 }
 
-nav ul {
-    list-style: none;
+.header_container {
     display: flex;
-    justify-content: center;
-    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
 }
 
-nav ul li {
-    display: inline;
+h1 {
+    font-size: 1.8rem;
 }
 
-nav ul li a {
-    color: white;
+/* ハンバーガーメニュー */
+.menu_bt_container img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* モバイル用メニュー */
+.sample_sp_menu {
+    display: none;
+    background-color: #008080;
+    padding: 10px 20px;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 250px;
+}
+
+.sample_sp_menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sample_sp_menu li {
+    margin: 15px 0;
+}
+
+.sample_sp_menu a {
     text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
 }
 
+/* メインコンテンツ */
+main {
+    padding: 20px;
+}
+
+/* セクション */
 section {
-    margin: 2rem 0;
-    padding: 1rem;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
 }
 
-footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: #333;
-    color: white;
+section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
 }
 
-#search-suggestions {
-    background-color: white;
+/* 検索フォーム */
+#anime-search-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#anime-search-form input {
+    padding: 10px;
+    font-size: 1rem;
     border: 1px solid #ccc;
-    max-height: 200px;
-    overflow-y: auto;
-    margin-top: 5px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#anime-search-form button {
+    padding: 10px;
+    background-color: #008080;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#anime-search-form button:hover {
+    background-color: #006f6f;
+}
+
+#search-suggestions,
+#search-results {
+    margin-top: 20px;
+}
+
+/* おすすめサービス */
+#recommended-services,
+#price-recommendations {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#recommended-services div,
+#price-recommendations div {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#recommended-services div:hover,
+#price-recommendations div:hover {
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+
+/* フッター */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* レスポンシブデザイン */
+@media (max-width: 768px) {
+    .header_container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .sample_sp_menu {
+        display: block;
+    }
+
+    #anime-search-form input {
+        font-size: 0.9rem;
+    }
+
+    #anime-search-form button {
+        font-size: 0.9rem;
+    }
+}
+
+/* ハンバーガーメニューの表示 */
+.menu_open {
+    display: block;
+}
+
+.menu_close {
     display: none;
 }
 
-#search-suggestions div {
-    padding: 8px;
-    cursor: pointer;
-}
+@media (max-width: 768px) {
+    .menu_open {
+        display: none;
+    }
 
-#search-suggestions div:hover {
-    background-color: #f1f1f1;
-}
+    .menu_close {
+        display: block;
+    }
 
-#cancel-btn {
-    background-color: #f44336;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    margin-left: 10px;
-    cursor: pointer;
-}
-
-#cancel-btn:hover {
-    background-color: #d32f2f;
+    .sample_sp_menu.active {
+        display: block;
+    }
 }
